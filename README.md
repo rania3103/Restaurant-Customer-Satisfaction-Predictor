@@ -3,7 +3,7 @@
 <img src="img.jpg">
 
 ## Overview 🔍
-
+This project focuses on predicting restaurant customer satisfaction based on various features using machine learning models. The objective is to help restaurants identify patterns in customer feedback and improve services based on model insights. We explored several models, fine-tuned them using hyperparameter tuning, and evaluated the final performance.
 
 ## Dataset 🗂️
 
@@ -40,7 +40,12 @@ The dataset used can be found on Kaggle [here](https://www.kaggle.com/datasets/r
   - Evaluate model performance confusion matrix and  classification report.
   
 ## Findings✨🕵
-
+- The logistic regression model achieved an accuracy of 91% in predicting customer satisfaction.
+- The weighted average F1-score was 91%, indicating that the model performs well overall, but struggles more with identifying non-satisfied customers.
+- Service quality was the most influential factor in determining customer satisfaction, followed by food quality and value for money.
+- Less influential features included location and restaurant atmosphere, suggesting that while these are important, they are secondary to service and food quality.
+- Food quality and service quality are critical factors driving satisfaction. Restaurant management can focus on these areas to improve overall customer experience.
+- The relatively low importance of restaurant atmosphere suggests that while aesthetics matter, they don't outweigh the core elements of service and food.
 
 ## 👩‍💻 Author
 
